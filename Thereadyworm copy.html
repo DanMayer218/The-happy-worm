@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel= "stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+    <title>The Happy Worm</title>
+  </head>
+
+
+  <body id="contback" style= background-color:rgb(202,202,202);background-image:url("http://www.tesla-institute.com/images/art_007/Binary%20numbers%20explained%20-%20TESLA%20INSTITUTE.jpg");opacity:1.0;>
+
+        <!-- Customized header with class css link -->
+            <h1 class="dheader">BOOTCAMP, THE MUSICAL</h1>
+
+
+  <!-- Body with background and with display flex -->
+  <!-- ------------------------------------------- -->
+       
+
+                    <!-- Flexbox with a question and anser box in it -->
+            <container class="dtborders dcontainer justify-content-around">
+
+                <div class="dtborders dflexbox quiz">
+                  <p>Question box</p>
+                    <button id="submit">Get Results</button>
+                </div>
+                
+                <!-- results answers and tallying box -->
+                <div class="dtborders dflexbox" id="results">
+                Results box</div>
+
+<script>
+
+  // Function for generating the questions and the answers.
+  // -----------------------------------------------------------------
+function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
+
+function showQuestions(questions, quizContainer){
+  // code will go here
+}
+
+function showResults(questions, quizContainer, resultsContainer){
+  // code will go here
+}
+
+// show the questions
+showQuestions(questions, quizContainer);
+
+// when user clicks submit, show results
+submitButton.onclick = function(){
+  showResults(questions, quizContainer, resultsContainer);
+}
+
+var myQuestions = [
+	{
+		question: "What does HTML stand for?",
+		answers: {
+			a: 'Horrifically timed maniacal laughter',
+			b: 'Hypertext Markup Language',
+			c: 'Hypnotext makeout language'
+		},
+		correctAnswer: 'b'
+	},
+	{
+		question: "CSS can be used in which of the following ways?",
+		answers: {
+			a: 'Inline, only on a wednesday and only to make text bold',
+			b: 'To manipulate your loved ones and the general population as a whole',
+			c: 'inline, linked by stylesheet and written in the header'
+		},
+		correctAnswer: 'c'
+	}
+  
+		question: "Which of the following stands for a CDN?",
+		answers: {
+			a: 'Chilling, dining, napping',
+			b: 'Criminally dedicated network',
+			c: 'Content delivery network'
+		},
+		correctAnswer: 'c'
+	},
+  {
+		question: "Javascript and Java are.....",
+		answers: {
+			a: 'are not the same, and yet everyone thinks they are!',
+			b: 'JQuerys cousins who we dont talk about anymore!'
+			c: 'A new hip hop group called J-cubed!'
+		},
+		correctAnswer: 'a'
+	},
+  {
+		question: "Bootstrap is...",
+		answers: {
+			a: 'a six month intensive coding class hosted at Columbia University',
+			b: 'a language created by Timberland',
+			c: 'a very popular CSS framework for developing responsive/mobile websites'
+		},
+		correctAnswer: 'c'
+	},
+  {
+		question: "What is a responsive website?",
+		answers: {
+			a: 'a website that returns your calls after your first date',
+			b: 'HTML and CSS that will make a website appropriate for the device it is being displayed on',
+			c: 'A website that maintains a pulse for more than 30 seconds'
+		},
+		correctAnswer: 'b'
+	},
+  {
+		question: "What is an array?",
+		answers: {
+			a: 'a single variable that is used to store different elements',
+			b: 'an all you can eat buffet in Yonkers',
+			c: 'A large fish with a baseball team named after it'
+		},
+		correctAnswer: 'a'
+	},
+  {
+		question: "What does it mean to Git Commit",
+		answers: {
+			a: 'Move in, get married and maybe have some little ones.',
+			b: 'Lose your mind and git committed involuntarily by other family members',
+			c: 'the "commit" command is used to save changes to your local repository'
+		},
+		correctAnswer: 'b'
+	},
+  {
+		question: "What does HTML stand for?",
+		answers: {
+			a: 'Horrifically timed maniacal laughter',
+			b: 'Hypertext Markup Language',
+			c: 'Hypnotext makeout language'
+		},
+		correctAnswer: 'b'
+	},
+  {
+		question: "What does HTML stand for?",
+		answers: {
+			a: 'Horrifically timed maniacal laughter',
+			b: 'Hypertext Markup Language',
+			c: 'Hypnotext makeout language'
+		},
+		correctAnswer: 'b'
+	},
+  {
+		question: "What does HTML stand for?",
+		answers: {
+			a: 'Horrifically timed maniacal laughter',
+			b: 'Hypertext Markup Language',
+			c: 'Hypnotext makeout language'
+		},
+		correctAnswer: 'b'
+	},
+  {
+		question: "What does HTML stand for?",
+		answers: {
+			a: 'Horrifically timed maniacal laughter',
+			b: 'Hypertext Markup Language',
+			c: 'Hypnotext makeout language'
+		},
+		correctAnswer: 'b'
+	},
+  {
+		question: "What does HTML stand for?",
+		answers: {
+			a: 'Horrifically timed maniacal laughter',
+			b: 'Hypertext Markup Language',
+			c: 'Hypnotext makeout language'
+		},
+		correctAnswer: 'b'
+	},
+];
+
+
+
+</script>
+                </container>
+
+
+
+                <!-- Footer bar -->
+                <!-- ---------------------------------------- -->
+                <h1 class="dheader" style= font-family:'Barriecito',cursive;font-size:30px;text-shadow:none;>BOOTCAMP THE MUSICAL, YOU WILL LAUGH, YOU WILL CRY, YOU WILL NEVER BE THE SAME!</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                 </body>
+        </html>
